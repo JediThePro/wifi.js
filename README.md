@@ -1,16 +1,8 @@
-<div align="center">
-<p>
-<img src="https://raw.githubusercontent.com/friedrith/assets/master/node-wifi/logo.png" alt="node-wifi" />
-<br>
-<br>
-<img src="https://github.com/friedrith/node-wifi/workflows/build/badge.svg" alt="travis" />
-<a href="https://badge.fury.io/js/node-wifi"><img src="https://badge.fury.io/js/node-wifi.svg" alt="npm version" height="18"></a>
-</p>
-</div>
+# <code>Wifi.js</code>
 
 **I have great ambitions for this project and I am looking for maintainers who could help me to handle all improvements and
 bug fixes about this project because the hardware/os dependencies make it quite
-hard to test. You can contact me at [thibault.friedrich@gmail.com](mailto:thibault.friedrich@gmail.com).**
+hard to test.
 
 The node-wifi module allows macOS, windows and linux users to interact with surrounding wifi networks through various methods. These methods include scanning for wifi access points and connecting to these access points.
 
@@ -32,16 +24,16 @@ We wish to be clear in saying that this module is inspired from [node-wifi-contr
 
 ```bash
 # Use as a module
-npm install node-wifi
+npm install wifi.js
 
 # Use as a CLI
-npm install node-wifi -g
+npm install wifi.js -g
 ```
 
 ## Getting started
 
 ```javascript
-var wifi = require('node-wifi');
+var wifi = require('wifi.js');
 
 // Initialize wifi module
 // Absolutely necessary even to set interface to null
@@ -167,24 +159,3 @@ This project is tested with operating systems:
 Linux:
 
 - network-manager (nmcli)
-
-## Contribute
-
-Please read [development guidelines](./CONTRIBUTING.md) before proposing a pull request.
-
-## Roadmap
-
-- [x] add conventional commits
-- [x] plug to travis
-- [x] add github templates
-- [x] add eslint
-- [x] add prettier
-- [x] switch to MIT license
-- [x] generate changelog and release note
-- [x] stdout how to reproduce bug
-- [x] use github actions
-- [ ] add unit tests (in progress)
-- [ ] rewrite the library using ES7 (in progress)
-- [ ] harmonize security flags and modes
-- [ ] install commitizen
-- [ ] use xml to stabilize parsers
