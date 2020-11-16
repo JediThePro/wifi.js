@@ -1,26 +1,17 @@
 {
-  "name": "node-wifi",
-  "version": "2.0.14",
-  "description": "NodeJS tool to manage wifi",
+  "name": "wifi.js",
+  "version": "1.0.0",
+  "description": "NodeJS tool to manage wifi, Can be use as a CLI.",
   "keywords": [
     "wifi",
     "multiplatform",
     "node"
   ],
-  "author": "Thibault Friedrich",
-  "contributors": [
-    "Thibault Friedrich <thibault.friedrich@gmail.com> (https://thibaultfriedrich.io)"
-  ],
+  "author": "JediThePro",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/friedrith/node-wifi.git"
-  },
-  "bugs": {
-    "url": "https://github.com/friedrith/node-wifi/issues"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "url": "git://github.com/JediThePro/wifi.js.git"
   },
   "bin": {
     "wifi": "bin/wifi.js"
@@ -31,7 +22,7 @@
   },
   "type": "commonjs",
   "engines": {
-    "node": ">=10.0.0"
+    "node": ">=12.0.0"
   },
   "dependencies": {
     "command-line-args": "^3.0.1",
